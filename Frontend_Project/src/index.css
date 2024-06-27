@@ -1,0 +1,75 @@
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .category-slide-container {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .category-slide-container .contain {
+        display: inline-block;
+    }
+
+    .category-slide-container .card {
+        flex: 0 0 auto;
+        /* Prevent cards from shrinking */
+        width: 18rem;
+        /* Set a fixed width for each card */
+        margin-right: 1rem;
+        /* Add spacing between cards */
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        height: max-content;
+        margin: 5px;
+        margin-top: 20px;
+        padding: 5px;
+        border-color: #fff;
+        border-radius: 70px 70px 0px 0px;
+        transition: all 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .card-body p {
+
+        margin: 2px;
+    }
+
+    .categoryimg {
+        border-radius: 70px 0px 70px 0px;
+    }
+
+    .title {
+        background-color: #fff;
+        border-radius: 70px 0px 70px 0px;
+    }
+
+    Link {
+        text-decoration: none;
+    }
+
+    .restaurantcards {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .rest-img {
+        border-radius: 70px 70px 0px 0px;
+    }
+
+    .main-footer {
+        border-radius: 50% 50% 0px 0px;
+        margin-top: 5%;
+        padding: 20%;
+    }
